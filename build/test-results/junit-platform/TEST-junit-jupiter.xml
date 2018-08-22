@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="8" skipped="0" failures="0" errors="0" time="0.348" hostname="DESKTOP-9Q8OD3O" timestamp="2018-08-22T02:11:06">
+<properties>
+<property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+<property name="file.encoding" value="windows-1252"/>
+<property name="file.encoding.pkg" value="sun.io"/>
+<property name="file.separator" value="\"/>
+<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+<property name="java.class.path" value="C:\Users\jmcca\eclipse-workspace\ticketService\build\classes\java\test;C:\Users\jmcca\eclipse-workspace\ticketService\build\resources\test;C:\Users\jmcca\eclipse-workspace\ticketService\build\classes\java\main;C:\Users\jmcca\eclipse-workspace\ticketService\build\resources\main;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\26.0-jre\6a806eff209f36f635f943e16d97491f00f6bfab\guava-26.0-jre.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-slf4j-impl\2.11.1\4b41b53a3a2d299ce381a69d165381ca19f62912\log4j-slf4j-impl-2.11.1.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-engine\5.1.0\c54b96b465bb5b49c7708d734a4180dd95422754\junit-jupiter-engine-5.1.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.jupiter\junit-jupiter-api\5.1.0\370218fbc7ce9cf0600c4b5db400bccdf0c01a48\junit-jupiter-api-5.1.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.2\25ea2e8b0c338a877313bd4672d3fe056ea78f0d\jsr305-3.0.2.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.checkerframework\checker-qual\2.5.2\cea74543d5904a30861a61b4643a5f2bb372efc4\checker-qual-2.5.2.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.1.3\39b109f2cd352b2d71b52a3b5a1a9850e1dc304b\error_prone_annotations-2.1.3.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annotations\1.1\976d8d30bebc251db406f2bdb3eb01962b5685b3\j2objc-annotations-1.1.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.codehaus.mojo\animal-sniffer-annotations\1.14\775b7e22fb10026eed3f86e8dc556dfafe35f2d5\animal-sniffer-annotations-1.14.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-core\2.11.1\592a48674c926b01a9a747c7831bcd82a9e6d6e4\log4j-core-2.11.1.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.apache.logging.log4j\log4j-api\2.11.1\268f0fe4df3eefe052b57c87ec48517d64fb2a10\log4j-api-2.11.1.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.1.0\2596bd4d909e7ea8d029272db4338075445d731b\junit-platform-engine-1.1.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.1.0\d6aa21029f9cedfb4cc8a9e9efc0bd97987205b8\junit-platform-commons-1.1.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.apiguardian\apiguardian-api\1.0.0\3ef5276905e36f4d8055fe3cb0bdcc7503ffc85d\apiguardian-api-1.0.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.0.0\6f09c598e9ff64bf0ce2fa7e7de49a99ba83c0b4\opentest4j-1.0.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-console\1.2.0\945a6e1dc84fb16450bbdc0fa5043ab8572491f\junit-platform-console-1.2.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-launcher\1.2.0\ea230ba8c0b71943d4dd2bb215ca29041c89966e\junit-platform-launcher-1.2.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-engine\1.2.0\35fa3529ce843ada1a10b0909ccb4a8148ee638d\junit-platform-engine-1.2.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.junit.platform\junit-platform-commons\1.2.0\dbce1d822d3dc6c61703b340cd79018518685451\junit-platform-commons-1.2.0.jar;C:\Users\jmcca\.gradle\caches\modules-2\files-2.1\org.opentest4j\opentest4j\1.1.0\c8e2a3e3bc7f3e4bb5075306452db5290f9b117a\opentest4j-1.1.0.jar"/>
+<property name="java.class.version" value="52.0"/>
+<property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+<property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+<property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+<property name="java.io.tmpdir" value="C:\Users\jmcca\AppData\Local\Temp\"/>
+<property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\jmcca\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="1.8.0_181-b13"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="1.8"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="http://java.oracle.com/"/>
+<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+<property name="java.version" value="1.8.0_181"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="1.8"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="25.181-b13"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Windows 10"/>
+<property name="os.version" value="10.0"/>
+<property name="path.separator" value=";"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+<property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value="amd64"/>
+<property name="sun.desktop" value="windows"/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="org.junit.platform.console.ConsoleLauncher --details NONE --scan-class-path C:\Users\jmcca\eclipse-workspace\ticketService\build\classes\java\main;C:\Users\jmcca\eclipse-workspace\ticketService\build\resources\main;C:\Users\jmcca\eclipse-workspace\ticketService\build\classes\java\test;C:\Users\jmcca\eclipse-workspace\ticketService\build\resources\test -n ^(Test.*|.+[.$]Test.*|.*Tests?)$ --reports-dir C:\Users\jmcca\eclipse-workspace\ticketService\build\test-results\junit-platform"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="Cp1252"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value=""/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="C:\Users\jmcca\eclipse-workspace\ticketService"/>
+<property name="user.home" value="C:\Users\jmcca"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="J"/>
+<property name="user.script" value=""/>
+<property name="user.timezone" value="America/New_York"/>
+<property name="user.variant" value=""/>
+</properties>
+<testcase name="reservesCorrectSeats()" classname="com.walmart.ticketservice.model.impl.LowestSeatVenueTest" time="0.264">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.model.impl.LowestSeatVenueTest]/[method:reservesCorrectSeats()]
+display-name: reservesCorrectSeats()
+]]></system-out>
+</testcase>
+<testcase name="shouldReturnCorrectNumSeats()" classname="com.walmart.ticketservice.model.impl.LowestSeatVenueTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.model.impl.LowestSeatVenueTest]/[method:shouldReturnCorrectNumSeats()]
+display-name: shouldReturnCorrectNumSeats()
+]]></system-out>
+</testcase>
+<testcase name="shouldThrowExcpetion()" classname="com.walmart.ticketservice.model.impl.LowestSeatVenueTest" time="0.008">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.model.impl.LowestSeatVenueTest]/[method:shouldThrowExcpetion()]
+display-name: shouldThrowExcpetion()
+]]></system-out>
+</testcase>
+<testcase name="shouldAddRemoveCorrectly()" classname="com.walmart.ticketservice.repo.impl.NoPersistenceRepoTest" time="0.012">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.repo.impl.NoPersistenceRepoTest]/[method:shouldAddRemoveCorrectly()]
+display-name: shouldAddRemoveCorrectly()
+]]></system-out>
+</testcase>
+<testcase name="shouldFindOneExpired()" classname="com.walmart.ticketservice.repo.impl.NoPersistenceRepoTest" time="0.004">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.repo.impl.NoPersistenceRepoTest]/[method:shouldFindOneExpired()]
+display-name: shouldFindOneExpired()
+]]></system-out>
+</testcase>
+<testcase name="shouldFailToReserve()" classname="com.walmart.ticketservice.service.TicketServiceImplTest" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.service.TicketServiceImplTest]/[method:shouldFailToReserve()]
+display-name: shouldFailToReserve()
+]]></system-out>
+</testcase>
+<testcase name="shouldHoldAndReserve()" classname="com.walmart.ticketservice.service.TicketServiceImplTest" time="0.009">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.service.TicketServiceImplTest]/[method:shouldHoldAndReserve()]
+display-name: shouldHoldAndReserve()
+]]></system-out>
+</testcase>
+<testcase name="shouldThrowException()" classname="com.walmart.ticketservice.service.TicketServiceImplTest" time="0.003">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:com.walmart.ticketservice.service.TicketServiceImplTest]/[method:shouldThrowException()]
+display-name: shouldThrowException()
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
